@@ -68,10 +68,10 @@
         this.$router.replace({name:'login'})
       },
       tambahKategori() {
-        // Add your logic for adding a category here
+        this.$router.push({ name: 'kategori' });
       },
       tambahProduk() {
-        // Add your logic for adding a product here
+        this.$router.push({ name: 'produk' });
       },
       goToCart() {
         // Add your logic for navigating to the cart here

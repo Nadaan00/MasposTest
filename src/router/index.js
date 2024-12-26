@@ -17,6 +17,12 @@ export default new Router({
       name: 'dashboard',
       component: Dashboard,
       props: {}
+    },
+    {
+      path: '/kategori',
+      name: 'kategori',
+      component: Kategori,
+      props: {}
     }
   ]
 })
